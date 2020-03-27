@@ -1,0 +1,72 @@
+{
+  "name": "69-one-page-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "commit": "git-cz",
+    "fix:lint": "eslint --ext .js . --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
+    "fix": "npm run fix:lint && npm run fix:prettier"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.7.5",
+    "classnames": "^2.2.6",
+    "framer-motion": "^1.10.2",
+    "next": "^9.3.2",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.0.3",
+    "nprogress": "^0.2.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "description": "69 one page website",
+  "main": "index.js",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "babel-eslint": "^10.1.0",
+    "commitizen": "^4.0.3",
+    "cssnano": "^4.1.10",
+    "cz-conventional-changelog": "^3.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.10.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "postcss-cli": "^7.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.0.2",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "^1.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-69-Lab/one-page-website.git"
+  },
+  "keywords": [
+    "react",
+    "next.js",
+    "static",
+    "ssr"
+  ],
+  "engines": {
+    "node": ">=10.0 <13.0.0",
+    "npm": "*"
+  },
+  "author": "alabobriggs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/The-69-Lab/one-page-website/issues"
+  },
+  "homepage": "https://github.com/The-69-Lab/one-page-website#readme"
+}
