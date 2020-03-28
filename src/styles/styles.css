@@ -4,22 +4,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 html {
   font-size: 62.5%;
 }
 
 body {
+  @apply bg-black;
 }
 
 body * {
   box-sizing: border-box;
-  @apply m-0 p-0 text-base;
-}
-
-body table {
-  @apply border-collapse;
+  font-family: 'Poppins', sans-serif;
+  @apply m-0 p-0 text-base text-white;
 }
 
 body a {

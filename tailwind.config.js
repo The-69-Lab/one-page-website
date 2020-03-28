@@ -2,10 +2,10 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        base: '1.4rem'
+        base: '1.6rem'
       },
       colors: {
-        primary: '#9b2c2c'
+        primary: '#FFD731'
       }
     }
   },
