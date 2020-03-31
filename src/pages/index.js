@@ -1,3 +1,5 @@
+import SEOHead from '../components/SEOHead/SEOHead';
+
 const socialLInks = [
   {
     title: 'twitter',
@@ -28,12 +30,15 @@ const socialLInks = [
 const IndexPage = () => {
   return (
     <>
+      <SEOHead />
       <main className="flex flex-col items-center justify-between min-h-screen px-10 lg:px-40">
         <nav className="flex justify-between py-10 w-full">
           <a href="/">
             <img src="/img/logo/logo.svg" alt="The 69 lab" />
           </a>
-          <a href="mailto:hello@the69.xyz">Leave a message</a>
+          <a className="hover:text-primary" href="mailto:hello@the69.xyz">
+            Leave a message
+          </a>
         </nav>
         <h1>
           We are an independent design firm, established on the premise of
