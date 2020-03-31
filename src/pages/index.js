@@ -3,15 +3,15 @@ import SEOHead from '../components/SEOHead/SEOHead';
 const socialLInks = [
   {
     title: 'twitter',
-    link: '#'
+    link: 'https://twitter.com/the69_lab'
   },
   {
     title: 'instagram',
-    link: '#'
+    link: 'https://www.instagram.com/the69_lab/'
   },
   {
     title: 'dribbble',
-    link: '#'
+    link: 'https://dribbble.com/the69_lab/about'
   },
   {
     title: 'linkedin',
@@ -19,7 +19,7 @@ const socialLInks = [
   },
   {
     title: 'behance',
-    link: '#'
+    link: 'https://www.behance.net/the69_lab'
   },
   {
     title: 'pinterest',
@@ -49,7 +49,7 @@ const IndexPage = () => {
           {socialLInks.map(({ title, link }) => (
             <a href={link} key={title} className="lg:mx-12">
               <img
-                className="w-6 lg:w-8"
+                className="w-6 lg:w-8 social-icon"
                 src={`/img/icons/${title}.svg`}
                 alt={`The 69 lab ${title} profile`}
               />
@@ -67,6 +67,12 @@ const IndexPage = () => {
             font-weight: 600;
             line-height: 72px;
             text-align: center;
+          }
+          img {
+            transition: .2s all;
+          }
+          .social-icon:hover {
+            filter: invert(0) sepia(1) saturate(20) hue-rotate(316.8deg) brightness(1.05);
           }
           @media only screen and (max-width: 640px) {
             h1 {
