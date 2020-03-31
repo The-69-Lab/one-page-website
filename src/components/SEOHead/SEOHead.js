@@ -6,7 +6,7 @@ const SEOHead = ({ title, description, url, ogImage }) => (
     <meta charSet="UTF-8" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta charset="utf-8" />
+    <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"

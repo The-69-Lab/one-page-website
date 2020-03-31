@@ -31,7 +31,7 @@ const IndexPage = () => {
   return (
     <>
       <SEOHead />
-      <main className="bg-black text-white text-base font-muli flex flex-col items-center justify-between min-h-screen px-10 lg:px-40">
+      <main className="flex flex-col items-center justify-between min-h-screen px-10 lg:px-40">
         <nav className="flex justify-between py-10 w-full">
           <a href="/">
             <img src="/img/logo/logo.svg" alt="The 69 lab" />

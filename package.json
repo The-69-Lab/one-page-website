@@ -12,7 +12,6 @@
     "fix": "npm run fix:lint && npm run fix:prettier"
   },
   "dependencies": {
-    "autoprefixer": "^9.7.5",
     "classnames": "^2.2.6",
     "framer-motion": "^1.10.2",
     "next": "^9.3.2",
@@ -26,10 +25,10 @@
   "description": "69 one page website",
   "main": "index.js",
   "devDependencies": {
+    "autoprefixer": "^9.7.5",
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "babel-eslint": "^10.1.0",
     "commitizen": "^4.0.3",
-    "cssnano": "^4.1.10",
     "cz-conventional-changelog": "^3.1.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
@@ -39,8 +38,6 @@
     "eslint-plugin-prettier": "^3.1.2",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-react-hooks": "^3.0.0",
-    "postcss-cli": "^7.1.0",
-    "postcss-preset-env": "^6.7.0",
     "prettier": "^2.0.2",
     "prop-types": "^15.7.2",
     "tailwindcss": "^1.2.0"

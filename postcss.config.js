@@ -4,18 +4,9 @@ module.exports = {
     ...(process.env.NODE_ENV === `production`
       ? {
           '@fullhuman/postcss-purgecss': {
-            content: ['./src/components/**/*.js', './src/pages/**/*.js'],
+            content: [`./src/**/*.js`],
             defaultExtractor: (content) =>
-              content.match(/[\w-/:]+(?<!:)/g) || [],
-            whitelist: [
-              'nprogress',
-              'bar',
-              'peg',
-              'spinner',
-              'spinner-icon',
-              'nprogress-custom-parent',
-              'nprogress-spinner'
-            ]
+              content.match(/[\w-/:]+(?<!:)/g) || []
           },
           autoprefixer: {}
         }

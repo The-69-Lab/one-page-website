@@ -1,8 +1,7 @@
-/* disable css validation for workspace */
 
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
 
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
@@ -23,3 +22,7 @@ body * {
 body a {
   transition: 0.2s color;
 }
+/* purgecss end ignore */
+
+@tailwind utilities;
+ 
