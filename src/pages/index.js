@@ -40,7 +40,7 @@ const IndexPage = () => {
             Leave a message
           </a>
         </nav>
-        <h1>
+        <h1 className="my-8 lg:my-0">
           We are an independent design firm, established on the premise of
           infinite potential & responsiveness, centered on infinite,
           multidimensional & utopian ideas.
@@ -79,6 +79,7 @@ const IndexPage = () => {
               font-size: 32px;
               font-size: 32px;
               line-height: 48px;
+              margin: 4rem 0rem;
             }
         `}
       </style>
